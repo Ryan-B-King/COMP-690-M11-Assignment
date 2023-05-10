@@ -1,5 +1,6 @@
 //STEP 1
 
+
 // let month = prompt('Give a MONTH to know how many days it has.').toLowerCase();
 // let year = parseInt(prompt('Give a YEAR cooreleating to the MONTH previouly given.'));
 
@@ -47,17 +48,15 @@
 // }
 
 // let d = new Date(year, month, 0);
-
 // console.log(`There are a total of ${d.getDate()} days in this month.`);
+
 
 //STEP 2
 
+
 // let fullDate = prompt('Provide a date in the following format: MM/DD/YYYY');
-
 // let splitDate = fullDate.split('/');
-
 // let d = new Date(splitDate[2], splitDate[0], splitDate[1]);
-
 // let month = d.getMonth() - 1;
 
 // switch(month) {
@@ -106,11 +105,65 @@
 
 //STEP 3
 
+
+// let userDate = prompt('Provide a date in the following format: MM/DD/YYYY');
+// let splitDate = userDate.split('/');
+// let d = new Date(splitDate[2], splitDate[0], splitDate[1]);
+// let month = d.getMonth() - 1;
+// let _d = new Date(splitDate[2], month, splitDate[1])
+// let dayOfWeek = _d.getDay();
+
+// if (dayOfWeek === 6 || dayOfWeek === 0){
+//     console.log('This date falls on a weekend.');
+// } else {
+//     console.log('This date falls on a weekday.');
+// };
+
+
 //STEP 4
+
+
+// let userDate = prompt('Provide a date in the following format: MM/DD/YYYY');
+// let splitDate = userDate.split('/');
+// let d = new Date(splitDate[2], splitDate[0], splitDate[1]);
+// let month = d.getMonth() - 1;
+// let _d = new Date(splitDate[2], month, splitDate[1]);
+// let dayOfWeek = _d.getDay();
+
+// switch (dayOfWeek) {
+//     case 0:
+//         console.log("The day before was Saturday.");
+//         break;
+//     case 1:
+//         console.log("The day before was Sunday.");
+//         break;
+//     case 2:
+//         console.log("The day before was Monday.");
+//         break;
+//     case 3:
+//         console.log("The day before was Tuesday.");
+//         break;
+//     case 4:
+//         console.log("The day before was Wednesday.");
+//         break;
+//     case 5:
+//         console.log("YesThe day before was Thursday.");
+//         break;
+//     case 6:
+//         console.log("The day before was Friday.");
+//         break;
+// };
+
 
 //STEP 5
 
 
-// Create an application that tests whether a date is a weekend. Display that result within the console window.
-// Create an application that gets yesterday’s day of the week. For instance, if today is Tuesday, the console window should display Monday.
-// Create an application that gets the current day of the week. The twist here is that I want only the first letter of the day. If today is Tuesday, the letter T should be displayed in the console window.
+// let userDate = prompt('Provide a date in the following format: MM/DD/YYYY');
+// let splitDate = userDate.split('/');
+// let d = new Date(splitDate[2], splitDate[0], splitDate[1]);
+// let month = d.getMonth() - 1;
+// let _d = new Date(splitDate[2], month, splitDate[1]).toDateString();
+// let firstLetterOfDay = _d.slice(0,1);
+
+// console.log(_d)
+// console.log(firstLetterOfDay);
