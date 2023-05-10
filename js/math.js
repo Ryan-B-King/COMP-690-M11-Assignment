@@ -15,26 +15,15 @@
 
 //STEP 4
 
-let userNumbers = prompt('Choose five numbers and separate them with a comma. No spaces.');
+// let userNumbers = prompt('Choose five numbers and separate them with a comma. No spaces.');
+// let newNumbers = userNumbers.split(',');
 
-let numberMatch = userNumbers.match(/\d/g);
-
-
-console.log(typeof(numberMatch), numberMatch );
-console.log(Math.max(numberMatch));
-console.log(Math.min(numberMatch));
-
-
+// console.log(newNumbers);
+// console.log(Math.max(...newNumbers));
+// console.log(Math.min(...newNumbers));
 
 //STEP 5
 
-
-
-
-
-
-// Create an application that prompts the user for 5 numbers. Ask them to comma delimit each number so you get 1,2,3,4,5 for example. Store the result of that input in a variable and then find the largest and smallest numbers in that list. Display both of those numbers within a console window.
-
-
-
-// Create an application that prompts the user for a number. Now find the square root of that number and display the result within a console window.
+// let baseNumber = prompt('Choose a number.');
+// let squaredNumber = Math.sqrt(baseNumber);
+// alert(`Squareroot of your number is: ${squaredNumber}`);
